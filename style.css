@@ -11,6 +11,8 @@ body {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
   align-items: center;
   justify-content: space-around;
   padding: 20px;
@@ -18,6 +20,8 @@ body {
 
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -27,16 +31,20 @@ body {
   font-size: 1.125rem;
 }
 
+/* section ---------------------- */
 .conteudo {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 40px;
   padding: 40px 20px;
   border-top: 0.4px solid #FFF2E7;
   margin-bottom: 20px;
 }
 
 .conteudo img {
+  max-width: 100%;
+  display: block;
   filter: drop-shadow(0 0 2rem rgb(165, 20, 20));
 }
 
@@ -72,11 +80,46 @@ body {
   background: #FFF2E7;
 }
 
+@media (max-width: 700px) {
+  .header {
+    gap: 20px;
+  }
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    font-size: 1rem;
+    gap: 10px;
+    background: #855f5f69;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  .conteudo {
+    flex-direction: column;
+  }
+  .conteudo-texto {
+    align-items: center;
+    gap: 20px;
+  }
+  .conteudo-texto h1 {
+    font-size: 2.5rem;
+  }
+  .conteudo-texto p {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .conteudo-btn {
+    place-self: center;
+  }
+}
+
+/* section ------------ */
 .motivos {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
+  padding: 0px 20px;
 }
 
 .motivos h2 {
@@ -88,7 +131,8 @@ body {
   padding-top: 40px;
 }
 
-.motivos ol {
+.motivos ul {
+  list-style: none;
   font-family: 'Sarala', sans-serif;
   color: #ECD6C4;
   display: flex;
@@ -96,6 +140,7 @@ body {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer {
@@ -107,4 +152,10 @@ body {
 .footer p {
   color: #FFF2E7;
   font-size: 4rem;
+}
+
+@media (max-width: 800px) {
+  .footer p {
+    font-size: 2.5rem;
+  }
 }
