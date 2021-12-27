@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +8,46 @@
   <meta name="description" content="Essa é uma landing page voltada ao universo de chucky o brinquedo assassino.">
   <title>Landing Page - Chucky</title>
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <img src="./images/chucky-logo.png" alt="Foto do rosto do Chucky">
-    <nav>
-      <a href="./">Série</a>
-      <a href="./">Filme</a>
-      <a href="./">Curiosidade</a>
+  <header class="header">
+    <img class="header-logo" src="./images/chucky-logo.png" alt="Foto do rosto do Chucky">
+    <nav class="header-menu">
+      <a href="https://www.adorocinema.com/series/serie-23297/" target="_blank">Série</a>
+      <a href="https://www.adorocinema.com/noticias/filmes/noticia-161111/" target="_blank">Filmes</a>
+      <a href="https://www.tecmundo.com.br/minha-serie/227588-chucky-12-curiosidades-franquia-boneco-assassino.htm" target="_blank">Curiosidades</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <div>
+    <section class="conteudo">
+      <div class="conteudo-texto">
         <h1>Chucky Série</h1>
-        <p>Assista a série do famoso brinquedo assasino o chucky.</p>
-        <a href="./">Assista agora</a>
+        <p>Assista a série do famoso brinquedo assasino.</p>
+        <a class="conteudo-btn" href="https://www.seriesgratis.biz/chucky.html" target="_blank">Assista agora!</a>
       </div>
-        <img src="./images/chucky-principal.png" alt="">
+      <img src="./images/chucky-principal.png" alt="">
     </section>
 
-    <section>
+    <section class="motivos">
       <h2>Porque assistir a série ?</h2>
       <ol>
-        <li>O roteirista da franquia também é responsável pela série</li>
         <li>Diálogos para ambientar que estamos na atualidade e que muita coisa mudou desde 1988.</li>
-        <li>Vemos Charles na infância e na vida adulta, mostrando que a personalidade maléfica sempre existiu</li>
+        <li>Vemos Charles na infância e na vida adulta, mostrando que a personalidade maléfica sempre existiu.</li>
+        <li>O roteirista da franquia também é responsável pela série.</li>
       </ol>
     </section>
   </main>
 
-  <footer>
-    <img src="./images/chucky-footer.png" alt="">
+  <footer class="footer">
+    <p>Chucky</p>
   </footer>
 </body>
+
 </html>
