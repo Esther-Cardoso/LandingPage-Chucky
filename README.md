@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQGmQanCqCuOzw/feedshare-shrink_800/0/1640634859239?e=1643846400&v=beta&t=V3NV4EQYNIeWhvoY4K-Jsa8FLscGChLYHVQtlnmSbBc">
+<img src="./chucky-img.jpg">
 </p>
 
 <p align="center">
